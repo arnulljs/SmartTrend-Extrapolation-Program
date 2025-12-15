@@ -3,7 +3,7 @@ from typing import List
 
 def lagrange_interpolation(x_data: List[float], y_data: List[float], x_predict: float) -> float:
     """
-    Performs Lagrange interpolation.
+    Performs Lagrange extrapolation (via interpolation polynomial).
     Requires a minimum of 2 data points (n >= 2).
     
     Args:
